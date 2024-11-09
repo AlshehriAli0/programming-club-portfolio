@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const SquareBanner = () => {
   return (
-    <div className="bg-breaker-bay/10 mx-auto flex w-[90%] flex-col gap-12 rounded-3xl p-16 shadow-xl">
+    <div className="bg-breaker-bay/10 mx-auto flex w-[90%] flex-col gap-12 rounded-3xl p-16 shadow-2xl">
       <h2 className="from-biscay via-smalt-blue to-breaker-bay bg-gradient-to-r bg-clip-text text-4xl font-bold text-transparent">
         {content.scientificCorner.banner.title}
       </h2>
