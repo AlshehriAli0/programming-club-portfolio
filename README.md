@@ -7,7 +7,7 @@ We’re excited to build something amazing together. This project will be a show
 ## Important Notes:
 
 1. **WebP Format for Media**:  
-   All images, videos, and other media should be in **WebP** format to ensure **best performance and compatibility** across browsers.  
+   All images, videos, and other media should be in **WebP** format to ensure **best performance and compatibility** across browsers, for Icons or logos SVG should do the trick.  
 
 2. **Branching and Pull Requests**:  
    - **Never commit directly to the `main` branch**.  
