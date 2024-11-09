@@ -11,7 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        white: "#F3F4F5",
+        "primary-white": "#F3F4F5",
         biscay: "#174760",
         "smalt-blue": "#4C8494",
         "breaker-bay": "#6499A2",
