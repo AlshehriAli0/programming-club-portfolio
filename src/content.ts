@@ -18,6 +18,23 @@ export const content = {
       description3:
         "Get ready to level up your skills with exclusive, behind-the-scenes content that will ignite your passion for game development!",
     },
+    articles: {
+      Courses: [
+        { title: "Article name - headline for an article", link: "" },
+        { title: "Article name - headline for an article", link: "" },
+        { title: "Article name - headline for an article", link: "" },
+      ],
+      "Game Development": [
+        { title: "Article name - headline for an article", link: "" },
+        { title: "Article name - headline for an article", link: "" },
+        { title: "Article name - headline for an article", link: "" },
+      ],
+      "Previous Work": [
+        { title: "Article name - headline for an article", link: "" },
+        { title: "Article name - headline for an article", link: "" },
+        { title: "Article name - headline for an article", link: "" },
+      ],
+    },
   },
 };
 

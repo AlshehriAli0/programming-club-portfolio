@@ -1,3 +1,4 @@
+import { ArticleList } from "@/components/ArticleList";
 import { ScientificHero } from "@/components/ScientificHero";
 import { SquareBanner } from "@/components/SquareBanner";
 
@@ -8,6 +9,7 @@ export default function ScientificCornerPage() {
     <main className="mx-auto flex min-h-screen max-w-[85rem] flex-col gap-28 px-10 pb-20">
       <ScientificHero />
       <SquareBanner />
+      <ArticleList />
     </main>
   );
 }
