@@ -13,7 +13,7 @@ export const ScientificHero = () => {
         className="relative"
       >
         <div className="mx-auto max-w-[85rem] px-8">
-          <div className="flex flex-col gap-7 py-44 text-white">
+          <div className="text-primary-white flex flex-col gap-7 py-44">
             <h1 className="text-shadow text-6xl font-bold">{content.scientificCorner.hero.title}</h1>
             <h3 className="text-4xl">{content.scientificCorner.hero.titleWelcome}</h3>
             <p className="text-2xl font-light">{content.scientificCorner.hero.description}</p>

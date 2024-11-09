@@ -23,7 +23,7 @@ export const SquareBanner = () => {
       </div>
 
       <Link
-        className="bg-smalt-blue hover:bg-biscay/80 w-fit rounded-xl px-5 py-3 text-2xl font-bold text-[#fff] transition active:shadow-xl"
+        className="bg-smalt-blue hover:bg-biscay/80 w-fit rounded-xl px-5 py-3 text-2xl font-bold text-white transition active:shadow-xl"
         href={"/"}
       >
         Let's Go !
