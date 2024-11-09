@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Welcome to the Programming Club Portfolio Project!
 
-## Getting Started
+Hello team! 🎉
 
-First, run the development server:
+We’re excited to build something amazing together. This project will be a showcase of our club's skills and creativity, and with everyone's contribution, it’s going to be a project we’ll all be proud of. Below are some important guidelines to help keep us on track and maintain a high-quality codebase.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Important Notes:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **WebP Format for Media**:  
+   All images, videos, and other media should be in **WebP** format to ensure **best performance and compatibility** across browsers.  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Branching and Pull Requests**:  
+   - **Never commit directly to the `main` branch**.  
+   - Create a new branch with the name of the feature or page you are working on.  
+   - Once done, create a pull request and provide a **clear description** and, if possible, **screenshots** of your work.
+   - **Collaborate on Pull Requests**: Everyone should review, give feedback, and suggest improvements to maintain high standards. Don’t hesitate to be a critic or submit your approval! 👥
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Minimize Dependencies**:  
+   The fewer external packages we use, the better! If something can be done **without adding extra packages**, let’s create it ourselves to keep our project light and maintainable. 💡
 
-## Learn More
+4. **Icons**:  
+   For consistency, we will use [Lucide Icons](https://lucide.dev/icons/) throughout the project. They’re easy to use, lightweight, and customizable.
 
-To learn more about Next.js, take a look at the following resources:
+5. **Design**:  
+   We’re aiming to match **80-90%** of the [Figma design](https://www.figma.com/design/cgLQEj3pSoexlvSJJuADxI/Programming-Club-Project1?node-id=2-7&node-type=rounded_rectangle&m=dev) as closely as possible. Clean and precise design implementation is key to making our portfolio stand out! 🎨
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+6. **Clean and Readable Code**:  
+   Maintain **clear, organized, and readable code**. This helps everyone understand the project better and makes it easier to collaborate and contribute. Proper formatting, comments where needed, and consistency are a must.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+7. **Team Collaboration on Pull Requests**:  
+   Once a pull request is submitted, **everyone on the team** should review it. Provide feedback, suggest improvements, and share your thoughts. **Teamwork makes the dream work!** 🌟
 
-## Deploy on Vercel
+## Final Notes:
+- All **colors, formatting, and initial setup** have been configured already. Stick to these for consistency.
+- Keep the **spirit of learning and collaboration** alive. We’re all here to improve and grow, so let’s encourage and help each other along the way.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Together, let’s create something awesome! 💻🎉
