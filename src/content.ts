@@ -18,70 +18,7 @@ export const content = {
       description3:
         "Get ready to level up your skills with exclusive, behind-the-scenes content that will ignite your passion for game development!",
     },
-    articles: {
-      Courses: [
-        {
-          title: "Article name - headline for an article",
-          link: "",
-          description: "Description of the article",
-          image: "/blog-1.webp",
-        },
-        {
-          title: "Article name - headline for an article",
-          link: "",
-          description: "Description of the article",
-          image: "",
-        },
-        {
-          title: "Article name - headline for an article",
-          link: "",
-          description: "Description of the article",
-          image: "",
-        },
-      ],
-      "Game Development": [
-        {
-          title: "Article name - headline for an article",
-          link: "",
-          description: "Description of the article",
-          image: "",
-        },
-        {
-          title: "Article name - headline for an article",
-          link: "",
-          description: "Description of the article",
-          image: "",
-        },
-        {
-          title: "Article name - headline for an article",
-          link: "",
-          description: "Description of the article",
-          image: "",
-        },
-      ],
-      "Previous Work": [
-        {
-          title: "Article name - headline for an article",
-          link: "",
-          description: "Description of the article",
-          image: "",
-        },
-        {
-          title: "Article name - headline for an article",
-          link: "",
-          description: "Description of the article",
-          image: "",
-        },
-        {
-          title: "Article name - headline for an article",
-          link: "",
-          description: "Description of the article",
-          image: "",
-        },
-      ],
-    },
   },
 };
 
 export type Content = typeof content;
-export type ArticleKeys = keyof typeof content.scientificCorner.articles;
