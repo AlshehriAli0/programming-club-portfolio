@@ -7,7 +7,6 @@ import { ArticleCard } from "./ArticleCard";
 type ArticleKeys = "All" | "Game Development" | "Previous Work" | "Courses";
 
 export const ArticleList = ({ posts }: { posts: Post[] }) => {
-  console.log(posts);
   const [activeTab, setActiveTab] = useState<ArticleKeys>("All");
 
   // Get unique article keys from posts
@@ -18,11 +17,11 @@ export const ArticleList = ({ posts }: { posts: Post[] }) => {
     activeTab === "All" ? posts : posts.filter((post) => post.meta.section === activeTab);
 
   return (
-    <section className="flex flex-col gap-10 md:px-16">
+    <section className="flex flex-col gap-10 px-4 md:px-16">
       <div className="flex flex-wrap gap-4">
         <div
           onClick={() => setActiveTab("All")}
-          className={`cursor-pointer rounded-xl px-5 py-2 text-white transition active:scale-[0.98] ${
+          className={`cursor-pointer rounded-2xl px-5 py-2 text-white transition active:scale-[0.98] ${
             activeTab === "All" ? "bg-biscay" : "bg-breaker-bay/60 hover:bg-biscay/80"
           }`}
         >
@@ -32,7 +31,7 @@ export const ArticleList = ({ posts }: { posts: Post[] }) => {
           <div
             onClick={() => setActiveTab(tab as ArticleKeys)}
             key={idx}
-            className={`cursor-pointer rounded-xl px-4 py-2 text-white transition-all active:scale-[0.98] ${
+            className={`cursor-pointer rounded-2xl px-4 py-2 text-white transition-all active:scale-[0.98] ${
               activeTab === tab ? "bg-biscay" : "bg-breaker-bay/60 hover:bg-biscay/80"
             }`}
           >
