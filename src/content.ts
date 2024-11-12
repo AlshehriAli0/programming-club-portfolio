@@ -20,22 +20,68 @@ export const content = {
     },
     articles: {
       Courses: [
-        { title: "Article name - headline for an article", link: "" },
-        { title: "Article name - headline for an article", link: "" },
-        { title: "Article name - headline for an article", link: "" },
+        {
+          title: "Article name - headline for an article",
+          link: "",
+          description: "Description of the article",
+          image: "/blog-1.webp",
+        },
+        {
+          title: "Article name - headline for an article",
+          link: "",
+          description: "Description of the article",
+          image: "",
+        },
+        {
+          title: "Article name - headline for an article",
+          link: "",
+          description: "Description of the article",
+          image: "",
+        },
       ],
       "Game Development": [
-        { title: "Article name - headline for an article", link: "" },
-        { title: "Article name - headline for an article", link: "" },
-        { title: "Article name - headline for an article", link: "" },
+        {
+          title: "Article name - headline for an article",
+          link: "",
+          description: "Description of the article",
+          image: "",
+        },
+        {
+          title: "Article name - headline for an article",
+          link: "",
+          description: "Description of the article",
+          image: "",
+        },
+        {
+          title: "Article name - headline for an article",
+          link: "",
+          description: "Description of the article",
+          image: "",
+        },
       ],
       "Previous Work": [
-        { title: "Article name - headline for an article", link: "" },
-        { title: "Article name - headline for an article", link: "" },
-        { title: "Article name - headline for an article", link: "" },
+        {
+          title: "Article name - headline for an article",
+          link: "",
+          description: "Description of the article",
+          image: "",
+        },
+        {
+          title: "Article name - headline for an article",
+          link: "",
+          description: "Description of the article",
+          image: "",
+        },
+        {
+          title: "Article name - headline for an article",
+          link: "",
+          description: "Description of the article",
+          image: "",
+        },
       ],
     },
   },
 };
 
 export type Content = typeof content;
+export type ArticleKeys = keyof typeof content.scientificCorner.articles;
