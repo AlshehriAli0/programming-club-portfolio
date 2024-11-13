@@ -22,6 +22,34 @@ export const content = {
         "Get ready to level up your skills with exclusive, behind-the-scenes content that will ignite your passion for game development!",
     },
   },
+  gameDev: {
+    meetings: [
+      {
+        date: "13 November",
+        cover: "/game-dev-cover.png",
+        title: "1st Practice",
+        link: "www.zoom.com",
+      },
+      {
+        date: "13 November",
+        cover: "/game-dev-cover.png",
+        title: "1st Practice",
+        link: "www.zoom.com",
+      },
+      {
+        date: "13 November",
+        cover: "/game-dev-cover.png",
+        title: "1st Practice",
+        link: "www.zoom.com",
+      },
+      {
+        date: "13 November",
+        cover: "/game-dev-cover.png",
+        title: "1st Practice",
+        link: "www.zoom.com",
+      },
+    ],
+  },
 };
 
 export type Content = typeof content;
