@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "lucide-react": "^0.456.0",
     "next": "15.0.3",
     "programming-club-portfolio": "file:",
     "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-markdown": "^9.0.1",
+    "rehype-highlight": "^7.0.1",
+    "remark-gfm": "^4.0.0"
   },
   "devDependencies": {
     "@types/estree": "^1.0.6",
@@ -27,5 +31,10 @@
     "prettier-plugin-tailwindcss": "^0.6.8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }
