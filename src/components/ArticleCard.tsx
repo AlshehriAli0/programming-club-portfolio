@@ -10,7 +10,7 @@ interface ArticleCardProps {
 
 export const ArticleCard = ({ cover, title, type, href }: ArticleCardProps) => {
   return (
-    <div className="flex h-[32rem] max-w-[23rem] flex-col rounded-3xl bg-[#E4E4E4]">
+    <div className="flex h-[32rem] w-[23rem] flex-col rounded-3xl bg-[#E4E4E4]">
       <div className="relative h-full w-full">
         <Image src={cover} alt={cover} layout="fill" objectFit="cover" className="rounded-t-3xl" />
       </div>
