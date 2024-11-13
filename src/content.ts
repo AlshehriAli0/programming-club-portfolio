@@ -11,11 +11,14 @@ export const content = {
     },
     banner: {
       title: "Game Development Unit",
-      description1: "Welcome to the hub of creativity and innovation! Here, you'll dive into all the  ",
+      description1: "Welcome to the hub of creativity and innovation!  ",
+      description2: " Here, you'll dive into all the",
       bold: "recorded sessions ",
-      description2:
-        "of the Game Development Unit training, featuring insights and techniques from the masterminds at Eastern Games!",
       description3:
+        "of the Game Development Unit training, featuring insights and techniques from the masterminds at Eastern Games!",
+      description4:
+        "Get ready to level up your skills with exclusive, behind-the-scenes content that will ignite your passion for game development!",
+      description5:
         "Get ready to level up your skills with exclusive, behind-the-scenes content that will ignite your passion for game development!",
     },
   },

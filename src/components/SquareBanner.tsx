@@ -12,19 +12,20 @@ export const SquareBanner = () => {
         <aside>
           <p className="text-lg font-light md:text-2xl">
             {content.scientificCorner.banner.description1}
+            {content.scientificCorner.banner.description2}
 
             <span className="font-normal">{content.scientificCorner.banner.bold}</span>
-            {content.scientificCorner.banner.description2}
+            {content.scientificCorner.banner.description3}
           </p>
           <br />
-          <p className="text-lg font-light md:text-2xl">{content.scientificCorner.banner.description3}</p>
+          <p className="text-lg font-light md:text-2xl">{content.scientificCorner.banner.description4}</p>
         </aside>
         <Image width={170} height={217} alt="Game dev unit icon" src={"/game-dev-icon.svg"} />
       </div>
 
       <Link
         className="w-fit rounded-3xl bg-smalt-blue px-5 py-3 text-2xl font-bold text-white transition hover:bg-biscay/80 active:shadow-xl"
-        href={"/"}
+        href={"/scientific-corner/game-development"}
       >
         Let's Go !
       </Link>
