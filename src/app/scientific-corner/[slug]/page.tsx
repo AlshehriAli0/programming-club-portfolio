@@ -46,14 +46,16 @@ const page = async ({ params }: { params: Params }) => {
               </span>
             </div>
             <h1 className="text-3xl font-bold text-black md:text-6xl">{meta.title}</h1>
-            <Image
-              sizes="(max-width: 640px) 70vw, (max-width: 1024px) 75vw, (max-width: 1280px) 50vw, 100vw"
-              src={meta.image}
-              alt={meta.title}
-              width={800}
-              height={400}
-              quality={100}
-            />
+            {meta.image && (
+              <Image
+                sizes="(max-width: 640px) 70vw, (max-width: 1024px) 75vw, (max-width: 1280px) 50vw, 100vw"
+                src={meta.image}
+                alt={meta.title}
+                width={800}
+                height={400}
+                quality={100}
+              />
+            )}
           </div>
         </div>
 
