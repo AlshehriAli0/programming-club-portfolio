@@ -21,7 +21,7 @@ export default function Nav() {
         </div>
         {/* ham icon */}
         <button onClick={() => setVisible(!visible)} className="bg-primary-white p-2 flex flex-col justify-center items-center space-y-1 sm:hidden rounded-md">
-          {[0,0,0].map(() => {return <span className="h-[6px] w-7 bg-biscay rounded-full"></span>})}
+          {[0,0,0].map((i , index) => {return <span key={index} className="h-[6px] w-7 bg-biscay rounded-full"></span>})}
         </button>
       </div>
       {/* Toggled menu */}
