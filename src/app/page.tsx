@@ -1,5 +1,9 @@
+import TopPart from "@/components/Home/TopPart";
 import { content } from "@/content";
 
 export default function Home() {
-  return <main className="mx-auto min-h-screen w-full">{content.hero.testing}</main>;
+  return <main className="mx-auto min-h-screen w-full">
+        <TopPart />
+    
+  </main>;
 }

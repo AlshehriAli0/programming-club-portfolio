@@ -10,6 +10,12 @@ export const content = {
       {name: 'Scientific Corner' , url: '/'} 
       ]
   },
+  Home:{
+    topPart:{
+      topText:'Welcome to IAU',
+      bottom: 'programming club'
+    }
+  },
   scientificCorner: {
     hero: {
       title: "Scientific Corner",
