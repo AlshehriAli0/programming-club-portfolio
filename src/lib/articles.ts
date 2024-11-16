@@ -34,7 +34,7 @@ export const getDateAndSlugFromFilename = (filename: string): DateAndSlug | null
   return null;
 };
 
-const getPostFromFile = (filename: string, isWork?: boolean): Post | null => {
+const getPostFromFile = (filename: string): Post | null => {
   const fileContent = fs.readFileSync(path.join(POSTS_PATH, filename), "utf-8");
 
   const { data: frontMatter, content } = matter(fileContent);
@@ -56,12 +56,12 @@ const getPostFromFile = (filename: string, isWork?: boolean): Post | null => {
   };
 };
 
-export const getPostBySlug = (slug: string, isWork?: boolean): Post | null => {
+export const getPostBySlug = (slug: string): Post | null => {
   const files = fs.readdirSync(path.join(POSTS_PATH));
 
   for (const filename of files) {
     if (getRegexForSlug(slug).test(filename)) {
-      const post = getPostFromFile(filename, isWork);
+      const post = getPostFromFile(filename);
       if (post) {
         return post;
       }
@@ -75,19 +75,11 @@ export const getPostBySlug = (slug: string, isWork?: boolean): Post | null => {
  * Gets all posts.
  * @returns An array of all posts, sorted by date in descending order.
  */
-export const getAllPosts = async ({
-  includeDrafts,
-  filePath,
-  isWork,
-}: {
-  includeDrafts?: boolean;
-  filePath?: string;
-  isWork?: boolean;
-}): Promise<Post[]> => {
+export const getAllPosts = async (): Promise<Post[]> => {
   const files = fs.readdirSync(path.join(POSTS_PATH));
 
   const posts: Post[] = files
-    .map((item) => getPostFromFile(item, isWork))
+    .map((item) => getPostFromFile(item))
     .filter((post): post is Post => post !== null);
 
   const filteredAndSortedPosts = posts.sort((a, b) => {
@@ -100,8 +92,8 @@ export const getAllPosts = async ({
   return filteredAndSortedPosts;
 };
 
-export async function getAllPostPaths(isWork?: boolean) {
-  const posts = await getAllPosts({ isWork });
+export async function getAllPostPaths() {
+  const posts = await getAllPosts();
 
   const paths = posts.map((post) => ({ slug: post.slug }));
 
