@@ -16,6 +16,12 @@ export const content = {
       bottom: 'programming club'
     }
   },
+  footer:{
+    topPTag: 'Social media account:',
+    topATag: 'Programming_iau',
+    bottomPTag: 'share your activities at :',
+    bottomATag: '#programming_club',
+  },
   scientificCorner: {
     hero: {
       title: "Scientific Corner",
