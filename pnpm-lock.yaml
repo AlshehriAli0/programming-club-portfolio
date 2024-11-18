@@ -19,7 +19,7 @@ importers:
         version: 15.0.3(react-dom@19.0.0-rc-66855b96-20241106(react@19.0.0-rc-66855b96-20241106))(react@19.0.0-rc-66855b96-20241106)
       programming-club-portfolio:
         specifier: 'file:'
-        version: 'file:'
+        version: file:(@types/react@18.3.12)
       react:
         specifier: 19.0.0-rc-66855b96-20241106
         version: 19.0.0-rc-66855b96-20241106
@@ -29,6 +29,9 @@ importers:
       react-markdown:
         specifier: ^9.0.1
         version: 9.0.1(@types/react@18.3.12)(react@19.0.0-rc-66855b96-20241106)
+      react-multi-carousel:
+        specifier: ^2.8.5
+        version: 2.8.5
       rehype-highlight:
         specifier: ^7.0.1
         version: 7.0.1
@@ -1727,6 +1730,10 @@ packages:
     peerDependencies:
       '@types/react': '>=18'
       react: '>=18'
+
+  react-multi-carousel@2.8.5:
+    resolution: {integrity: sha512-C5DAvJkfzR2JK9YixZ3oyF9x6R4LW6nzTpIXrl9Oujxi4uqP9SzVVCjl+JLM3tSdqdjAx/oWZK3dTVBSR73Q+w==}
+    engines: {node: '>=8'}
 
   react@19.0.0-rc-66855b96-20241106:
     resolution: {integrity: sha512-klH7xkT71SxRCx4hb1hly5FJB21Hz0ACyxbXYAECEqssUjtJeFUAaI2U1DgJAzkGEnvEm3DkxuBchMC/9K4ipg==}
@@ -4001,19 +4008,25 @@ snapshots:
 
   prettier@3.3.3: {}
 
-  'programming-club-portfolio@file:':
+  programming-club-portfolio@file:(@types/react@18.3.12):
     dependencies:
+      gray-matter: 4.0.3
       lucide-react: 0.456.0(react@19.0.0-rc-66855b96-20241106)
       next: 15.0.3(react-dom@19.0.0-rc-66855b96-20241106(react@19.0.0-rc-66855b96-20241106))(react@19.0.0-rc-66855b96-20241106)
       react: 19.0.0-rc-66855b96-20241106
       react-dom: 19.0.0-rc-66855b96-20241106(react@19.0.0-rc-66855b96-20241106)
+      react-markdown: 9.0.1(@types/react@18.3.12)(react@19.0.0-rc-66855b96-20241106)
+      rehype-highlight: 7.0.1
+      remark-gfm: 4.0.0
     transitivePeerDependencies:
       - '@babel/core'
       - '@opentelemetry/api'
       - '@playwright/test'
+      - '@types/react'
       - babel-plugin-macros
       - babel-plugin-react-compiler
       - sass
+      - supports-color
 
   prop-types@15.8.1:
     dependencies:
@@ -4050,6 +4063,8 @@ snapshots:
       vfile: 6.0.3
     transitivePeerDependencies:
       - supports-color
+
+  react-multi-carousel@2.8.5: {}
 
   react@19.0.0-rc-66855b96-20241106: {}
 

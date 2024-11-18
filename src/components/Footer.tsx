@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logo from '../asset/logo.svg'
 import Shape from '../asset/FooterShape.svg'
-import { content, Content } from "@/content";
+import { content } from "@/content";
 
 export default function Footer() {
   return (

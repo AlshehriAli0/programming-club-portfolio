@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import sphere from '../../asset/Shape.svg'
+import sphere from '../../asset/FooterShape.svg'
 import logo from '../../../src/asset/logo.svg'
 import { content } from '@/content'
 
@@ -26,7 +26,7 @@ export default function TopPart() {
     width="0"
     height="0"
     sizes="100vw"
-    className="w-full h-full" 
+    className="w-full h-full rotate-180" 
     loading='lazy'
     />
     </div>
