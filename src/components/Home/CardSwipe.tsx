@@ -9,18 +9,14 @@ import { Mail } from 'lucide-react';
 export default function CardSwipe() {
   return (
     <section className='flex flex-col items-center gap-y-28'>
-        <p>a creative and supportive community to develop our skills and learn together outside the academic scope</p>
+        <p className='text-center text-[#174760] text-[37.86px] font-normal'>a creative and supportive community to develop our skills and learn together outside the academic scope</p>
 
-  <div className='border-biscay border-2 rounded-2xl flex flex-col items-center'>
-        <div className='p-6 rounded-full border-biscay border-2 block relative -top-12 bg-white'>
-          <Mail size={45} color='#174760'/>
-        </div>
         <Carousel
           additionalTransfrom={0}
           arrows
           autoPlaySpeed={3000}
           centerMode={false}
-          className="p-5"
+          className="p-5 border-biscay border-2 rounded-2xl"
           containerClass="container"
           dotListClass=""
           draggable
@@ -75,7 +71,6 @@ export default function CardSwipe() {
             <SingleCard />
             <SingleCard />
         </Carousel>
-  </div>
 </section>
 
   )

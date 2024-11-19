@@ -3,9 +3,12 @@ import { Mail } from 'lucide-react';
 
 export default function SingleCard() {
   return (
-    <div className='text-center p-44'>
+    <div className='text-center p-44 flex flex-col items-center'>
+      <div className='p-3 border-2 border-biscay rounded-full bg-white'>
+        <Mail />
+      </div>
       <div className='flex flex-col items-center gap-y-4'>
-        <h1 className='-mt-12 font-bold text-xl text-biscay'>
+        <h1 className='font-bold text-xl text-biscay'>
           Our Message
         </h1>
         <p className='text-justify'>
