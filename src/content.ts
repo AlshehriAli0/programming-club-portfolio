@@ -1,3 +1,6 @@
+import { ChevronsLeftRightEllipsis  , Gamepad2 , MessageSquare , CalendarDays } from 'lucide-react';
+
+
 export const content = {
   hero: {
     testing: "hi",
@@ -14,7 +17,33 @@ export const content = {
     topPart:{
       topText:'Welcome to IAU',
       bottom: 'programming club'
-    }
+    },
+    "ProgramUnit":{
+    "title": 'Programming club units',
+    "desc": 'Find your place and join the Programming club, be part of the change!',
+    "ProgramUnitCard":[
+        {
+          logo: ChevronsLeftRightEllipsis ,
+          headerOfTitle: 'web development unit',
+          info: 'Work in passionate environment to develop and design impactful websites. Collaborate with (Project management team) to plan and ensure smooth effective execution, (UI/UX team) to create user-friendly visual designs, or (Frontend/Backend team) to maintain robust, high-performance and scalable website.'
+        },
+        {
+          logo: CalendarDays,
+          headerOfTitle: 'Events & organization unit',
+          info: 'This unit is responsible for workshops, competitions, exhibitions, and social events, provided for club members and college students. Collaborate to ensure the smooth execution of every event by planning, coordinating, organizing, and implementing each one. It is the unit of vibrant members who love organizing, multitasking, and turning ideas into successful events.'
+        },
+        {
+          logo: MessageSquare,
+          headerOfTitle: 'Publication & Marketing unit',
+          info: "If you are interested in marketing, social media management, design, photography, content writing, or video editing, this is your perfect unit! Use your diverse skills and help promote the club's activities and achievements"
+        },
+        {
+          logo: Gamepad2,
+          headerOfTitle: 'game development unit',
+          info: "Regardless of your previous experience, learn the basics of creating, designing and coding games from scratch. Work eventually with your team to bring your game ideas to life!"
+        },
+      ]
+    },
   },
   footer:{
     topPTag: 'Social media account:',
