@@ -10,9 +10,12 @@ export default function Home() {
         <div className="py-4 flex flex-col gap-y-24">
           <CardSwipe />
           <MainCard /> 
-          <LeadersAndHeads />
-          <LeadersAndHeads />
-          <LeadersAndHeads />
+          {
+            content.Home.MembersSection.map((val , index)=>{
+              return (<LeadersAndHeads  title={val.title} boldTitle={val.boldTitle} contentOfMember={val.members} key={index}/>)
+            })
+          }
+
         </div>
     
   </main>;

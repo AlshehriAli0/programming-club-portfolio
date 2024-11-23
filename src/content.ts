@@ -44,6 +44,47 @@ export const content = {
         },
       ]
     },
+    "MembersSection":[
+      { title: 'Programming club', boldTitle: 'leaders', members: 
+        [
+          {name: 'Alanoud Alshaibi' , role: '(President)'}, 
+          {name: 'Daad Alobaid' , role: '(Vice President)'}
+        ] 
+      },
+      { title: 'Publications & Marketing', boldTitle: 'Heads', members: 
+        [
+          {name: 'Joory Al-dossary' , role: '(Head of Publications & Marketing Unit)'}, 
+          {name: 'Nada Alnaser' , role: '(Vice Head of Publications & Marketing Unit)'}
+        ] 
+      },
+      { title: 'Game Development', boldTitle: 'Heads', members: 
+        [
+          {name: 'Weaam Almuhammadi' , role: '(Head of Game Development Unit)'}, 
+          {name: 'Fahad Albeaiji' , role: '(Vice Head of Game Development Unit)'}
+        ] 
+      },
+      { title: 'Events & Organization', boldTitle: 'Heads', members: 
+        [
+          {name: 'Yazan Mousa' , role: '(Head of Events & Organization Unit)'}, 
+          {name: 'Abrar AlGhamdi' , role: '(Vice Head of Events & Organization Unit)'}
+        ] 
+      },
+      { title: 'Web development', boldTitle: 'Heads', members: 
+        [
+          {name: 'Abdullah Altamh' , role: '(Head of Web Development Unit)'}, 
+          {name: 'Jana Albader' , role: '(Head of Project Management)'},
+          {name: 'Ali Alshehri' , role: '(Head of Backend/Frontend)'},
+          {name: 'Mariam Ali' , role: '(Head of UI/UX)'}
+        ] 
+      },
+      { title: 'Coordinators', boldTitle: '', members: 
+        [
+          {name: 'Ibtisam Alsuhaymi' , role: '(Volunteering Hours Coordinator)'}, 
+          {name: 'Reem Alqahtani' , role: '(Financial Affairs & Member Info Coordinator)'},
+          {name: 'Raghad Jathmi' , role: '(Activities & Reservations Plan Coordinator)'}
+        ] 
+      },
+    ]
   },
   footer:{
     topPTag: 'Social media account:',
