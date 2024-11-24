@@ -2,6 +2,7 @@ import CardSwipe from "@/components/Home/CardSwipe";
 import LeadersAndHeads from "@/components/Home/LeadersAndHeads";
 import MainCard from "@/components/Home/MainCard";
 import TopPart from "@/components/Home/TopPart";
+import CardJoin from "@/components/Home2/CardJoin";
 import { content } from "@/content";
 
 export default function Home() {
@@ -16,7 +17,11 @@ export default function Home() {
             })
           }
 
+        <section className="flex flex-wrap justify-around gap-12">
+          <CardJoin />
+          <CardJoin />
+          <CardJoin />
+        </section>
         </div>
-    
   </main>;
 }
