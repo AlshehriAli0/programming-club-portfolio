@@ -6,11 +6,7 @@ import ReactMarkdown from "react-markdown";
 import rehypeHighlight from "rehype-highlight";
 import remarkGfm from "remark-gfm";
 
-type Params = {
-  slug: string;
-};
-
-const page = async ({ params }: { params: Params }) => {
+const page = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const { slug } = await params;
   const post = getPostBySlug(slug);
 

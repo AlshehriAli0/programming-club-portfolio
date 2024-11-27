@@ -27,7 +27,7 @@ export const SquareBanner = () => {
         className="w-fit rounded-3xl bg-smalt-blue px-5 py-3 text-2xl font-bold text-white transition hover:bg-biscay/80 active:shadow-xl"
         href={"/scientific-corner/game-development"}
       >
-        Let's Go !
+        Let&apos;s Go !
       </Link>
     </div>
   );

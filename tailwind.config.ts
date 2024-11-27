@@ -16,6 +16,7 @@ export default {
         "smalt-blue": "#4C8494",
         "breaker-bay": "#6499A2",
         "slate-gray": "#65738B",
+        'dark-blue': '#013854',
       },
     },
   },
