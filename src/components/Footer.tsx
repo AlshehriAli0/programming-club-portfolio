@@ -1,21 +1,25 @@
-import Image from "next/image";
-import logo from '../asset/logo.svg'
-import Shape from '../asset/FooterShape.svg'
 import { content } from "@/content";
+import Image from "next/image";
+import Shape from "../asset/FooterShape.svg";
+import logo from "../asset/logo.svg";
 
 export default function Footer() {
   return (
-    <footer className="bg-biscay flex-col">
-      <Image src={Shape} alt="sphere" className="w-full"/>
-      <div className="flex flex-row justify-around items-center">
-        <div className="flex flex-col text-primary-white gap-y-3">
+    <footer className="flex-col bg-biscay">
+      <Image src={Shape} alt="sphere" className="w-full" />
+      <div className="flex flex-row items-center justify-around px-4 py-10">
+        <div className="flex flex-col gap-y-3 text-primary-white">
           <div>
-            <p className="font-bold text-3xl">{content.footer.topPTag}</p>
-            <a href="" className="font-extralight text-xl">{content.footer.topATag}</a>
+            <p className="text-3xl font-bold">{content.footer.topPTag}</p>
+            <a href="" className="text-xl font-extralight">
+              {content.footer.topATag}
+            </a>
           </div>
           <div>
-            <p className="font-bold text-3xl">{content.footer.bottomPTag}</p>
-            <a href="" className="font-extralight text-xl">{content.footer.bottomATag}</a>
+            <p className="text-3xl font-bold">{content.footer.bottomPTag}</p>
+            <a href="" className="text-xl font-extralight">
+              {content.footer.bottomATag}
+            </a>
           </div>
         </div>
 
@@ -23,5 +27,5 @@ export default function Footer() {
         <Image src={logo} alt="logo" className="w-52" />
       </div>
     </footer>
-  )
+  );
 }

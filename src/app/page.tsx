@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="mx-auto min-h-screen w-full">
       <TopPart />
-      <div className="flex flex-col gap-y-24 py-4">
+      <div className="flex flex-col gap-y-24">
         <CardSwipe />
         <MainCard />
         {content.Home.MembersSection.map((val, index) => {

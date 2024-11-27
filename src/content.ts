@@ -1,96 +1,107 @@
-import { ChevronsLeftRightEllipsis  , Gamepad2 , MessageSquare , CalendarDays } from 'lucide-react';
-
+import { CalendarDays, ChevronsLeftRightEllipsis, Gamepad2, MessageSquare } from "lucide-react";
 
 export const content = {
   hero: {
     testing: "hi",
   },
-  nav:{
+  nav: {
     nameOfTabs: [
-      {name: 'Home' , url: '/'}, 
-      {name: 'About us' , url: '/'} , 
-      {name: 'Statistics & Achievements' , url: '/scientific-corner'}, 
-      {name: 'Scientific Corner' , url: '/'} 
-      ]
+      { name: "Home", url: "/" },
+      { name: "About us", url: "/about-us" },
+      { name: "Statistics & Achievements", url: "/statistics-achievements" },
+      { name: "Scientific Corner", url: "/scientific-corner" },
+    ],
   },
-  Home:{
-    topPart:{
-      topText:'Welcome to IAU',
-      bottom: 'programming club'
+  Home: {
+    topPart: {
+      topText: "Welcome to IAU",
+      bottom: "programming club",
     },
-    "ProgramUnit":{
-    "title": 'Programming club units',
-    "desc": 'Find your place and join the Programming club, be part of the change!',
-    "ProgramUnitCard":[
+    ProgramUnit: {
+      title: "Programming club units",
+      desc: "Find your place and join the Programming club, be part of the change!",
+      ProgramUnitCard: [
         {
-          logo: ChevronsLeftRightEllipsis ,
-          headerOfTitle: 'web development unit',
-          info: 'Work in passionate environment to develop and design impactful websites. Collaborate with (Project management team) to plan and ensure smooth effective execution, (UI/UX team) to create user-friendly visual designs, or (Frontend/Backend team) to maintain robust, high-performance and scalable website.'
+          logo: ChevronsLeftRightEllipsis,
+          headerOfTitle: "web development unit",
+          info: "Work in passionate environment to develop and design impactful websites. Collaborate with (Project management team) to plan and ensure smooth effective execution, (UI/UX team) to create user-friendly visual designs, or (Frontend/Backend team) to maintain robust, high-performance and scalable website.",
         },
         {
           logo: CalendarDays,
-          headerOfTitle: 'Events & organization unit',
-          info: 'This unit is responsible for workshops, competitions, exhibitions, and social events, provided for club members and college students. Collaborate to ensure the smooth execution of every event by planning, coordinating, organizing, and implementing each one. It is the unit of vibrant members who love organizing, multitasking, and turning ideas into successful events.'
+          headerOfTitle: "Events & organization unit",
+          info: "This unit is responsible for workshops, competitions, exhibitions, and social events, provided for club members and college students. Collaborate to ensure the smooth execution of every event by planning, coordinating, organizing, and implementing each one. It is the unit of vibrant members who love organizing, multitasking, and turning ideas into successful events.",
         },
         {
           logo: MessageSquare,
-          headerOfTitle: 'Publication & Marketing unit',
-          info: "If you are interested in marketing, social media management, design, photography, content writing, or video editing, this is your perfect unit! Use your diverse skills and help promote the club's activities and achievements"
+          headerOfTitle: "Publication & Marketing unit",
+          info: "If you are interested in marketing, social media management, design, photography, content writing, or video editing, this is your perfect unit! Use your diverse skills and help promote the club's activities and achievements",
         },
         {
           logo: Gamepad2,
-          headerOfTitle: 'game development unit',
-          info: "Regardless of your previous experience, learn the basics of creating, designing and coding games from scratch. Work eventually with your team to bring your game ideas to life!"
+          headerOfTitle: "game development unit",
+          info: "Regardless of your previous experience, learn the basics of creating, designing and coding games from scratch. Work eventually with your team to bring your game ideas to life!",
         },
-      ]
+      ],
     },
-    "MembersSection":[
-      { title: 'Programming club', boldTitle: 'leaders', members: 
-        [
-          {name: 'Alanoud Alshaibi' , role: '(President)'}, 
-          {name: 'Daad Alobaid' , role: '(Vice President)'}
-        ] 
+    MembersSection: [
+      {
+        title: "Programming club",
+        boldTitle: "leaders",
+        members: [
+          { name: "Alanoud Alshaibi", role: "(President)" },
+          { name: "Daad Alobaid", role: "(Vice President)" },
+        ],
       },
-      { title: 'Publications & Marketing', boldTitle: 'Heads', members: 
-        [
-          {name: 'Joory Al-dossary' , role: '(Head of Publications & Marketing Unit)'}, 
-          {name: 'Nada Alnaser' , role: '(Vice Head of Publications & Marketing Unit)'}
-        ] 
+      {
+        title: "Publications & Marketing",
+        boldTitle: "Heads",
+        members: [
+          { name: "Joory Al-dossary", role: "(Head of Publications & Marketing Unit)" },
+          { name: "Nada Alnaser", role: "(Vice Head of Publications & Marketing Unit)" },
+        ],
       },
-      { title: 'Game Development', boldTitle: 'Heads', members: 
-        [
-          {name: 'Weaam Almuhammadi' , role: '(Head of Game Development Unit)'}, 
-          {name: 'Fahad Albeaiji' , role: '(Vice Head of Game Development Unit)'}
-        ] 
+      {
+        title: "Game Development",
+        boldTitle: "Heads",
+        members: [
+          { name: "Weaam Almuhammadi", role: "(Head of Game Development Unit)" },
+          { name: "Fahad Albeaiji", role: "(Vice Head of Game Development Unit)" },
+        ],
       },
-      { title: 'Events & Organization', boldTitle: 'Heads', members: 
-        [
-          {name: 'Yazan Mousa' , role: '(Head of Events & Organization Unit)'}, 
-          {name: 'Abrar AlGhamdi' , role: '(Vice Head of Events & Organization Unit)'}
-        ] 
+      {
+        title: "Events & Organization",
+        boldTitle: "Heads",
+        members: [
+          { name: "Yazan Mousa", role: "(Head of Events & Organization Unit)" },
+          { name: "Abrar AlGhamdi", role: "(Vice Head of Events & Organization Unit)" },
+        ],
       },
-      { title: 'Web development', boldTitle: 'Heads', members: 
-        [
-          {name: 'Abdullah Altamh' , role: '(Head of Web Development Unit)'}, 
-          {name: 'Jana Albader' , role: '(Head of Project Management)'},
-          {name: 'Ali Alshehri' , role: '(Head of Backend/Frontend)'},
-          {name: 'Mariam Ali' , role: '(Head of UI/UX)'}
-        ] 
+      {
+        title: "Web development",
+        boldTitle: "Heads",
+        members: [
+          { name: "Abdullah Altamh", role: "(Head of Web Development Unit)" },
+          { name: "Jana Albader", role: "(Head of Project Management)" },
+          { name: "Ali Alshehri", role: "(Head of Backend/Frontend)" },
+          { name: "Mariam Ali", role: "(Head of UI/UX)" },
+        ],
       },
-      { title: 'Coordinators', boldTitle: '', members: 
-        [
-          {name: 'Ibtisam Alsuhaymi' , role: '(Volunteering Hours Coordinator)'}, 
-          {name: 'Reem Alqahtani' , role: '(Financial Affairs & Member Info Coordinator)'},
-          {name: 'Raghad Jathmi' , role: '(Activities & Reservations Plan Coordinator)'}
-        ] 
+      {
+        title: "Coordinators",
+        boldTitle: "",
+        members: [
+          { name: "Ibtisam Alsuhaymi", role: "(Volunteering Hours Coordinator)" },
+          { name: "Reem Alqahtani", role: "(Financial Affairs & Member Info Coordinator)" },
+          { name: "Raghad Jathmi", role: "(Activities & Reservations Plan Coordinator)" },
+        ],
       },
-    ]
+    ],
   },
-  footer:{
-    topPTag: 'Social media account:',
-    topATag: 'Programming_iau',
-    bottomPTag: 'share your activities at :',
-    bottomATag: '#programming_club',
+  footer: {
+    topPTag: "Social media account:",
+    topATag: "Programming_iau",
+    bottomPTag: "share your activities at :",
+    bottomATag: "#programming_club",
   },
   scientificCorner: {
     hero: {
@@ -151,16 +162,16 @@ export const content = {
             { name: "CS", value: 13 },
             { name: "CYS", value: 12 },
           ],
-          type: "pie"
+          type: "pie",
         },
         {
           title: "Complated Projects",
           counts: [
             { name: "p1", value: 50 },
             { name: "p2", value: 20 },
-            { name: "p3", value: 80 }
+            { name: "p3", value: 80 },
           ],
-          type: "none"
+          type: "none",
         },
         {
           title: "Participants Rates In Events",
@@ -171,9 +182,9 @@ export const content = {
             { name: "general", value: 83 },
             { name: "cs", value: 58 },
           ],
-          type: "bar"
-        }
-      ]
+          type: "bar",
+        },
+      ],
     },
     track: {
       title: "Track Our Club Grouth",
@@ -182,27 +193,27 @@ export const content = {
           title: "Member Count",
           counts: {
             number: "150",
-            plus: "10"
-          }
+            plus: "10",
+          },
         },
         {
           title: "Complated Projects",
           counts: {
             number: "30",
-            plus: "5"
-          }
+            plus: "5",
+          },
         },
         {
           title: "Events Participants Rates",
           counts: {
             number: "80%",
-            plus: "3%"
-          }
-        }
+            plus: "3%",
+          },
+        },
       ],
       card: {
         title: "Growth Over Time",
-      }
+      },
     },
     members: {
       title: "Top Members",
@@ -211,23 +222,23 @@ export const content = {
           name: "Noor",
           hours: 16,
           unit: "Web Unit",
-          image: "/profile.png"
+          image: "/profile.png",
         },
         {
           name: "Fatima",
           hours: 22,
           unit: "Web Unit",
-          image: "/profile.png"
+          image: "/profile.png",
         },
         {
           name: "Hawra'a",
           hours: 19,
           unit: "Web Unit",
-          image: "/profile.png"
-        }
-      ]
-    }
-  }
+          image: "/profile.png",
+        },
+      ],
+    },
+  },
 };
 
 export type Content = typeof content;

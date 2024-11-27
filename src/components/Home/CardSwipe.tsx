@@ -7,8 +7,8 @@ import SingleCard from "./SingleCard";
 export default function CardSwipe() {
   return (
     <section className="flex flex-col items-center gap-y-28">
-      <p className="text-center text-[37.86px] font-normal text-[#174760]">
-        a creative and supportive community to develop our skills and learn together outside the academic
+      <p className="px-4 text-center text-[37.86px] font-normal text-[#174760] md:px-20">
+        A creative and supportive community to develop our skills and learn together outside the academic
         scope
       </p>
 
