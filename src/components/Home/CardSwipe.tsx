@@ -8,15 +8,15 @@ import { Mail } from 'lucide-react';
 
 export default function CardSwipe() {
   return (
-    <section className='flex flex-col items-center gap-y-28'>
-        <p className='text-center text-[#174760] text-[37.86px] font-normal'>a creative and supportive community to develop our skills and learn together outside the academic scope</p>
+    <section className='flex flex-col items-center gap-y-28 px-5'>
+        <p className='text-center text-[#174760] sm:text-[37.86px] text-2xl font-normal'>a creative and supportive community to develop our skills and learn together outside the academic scope</p>
 
         <Carousel
           additionalTransfrom={0}
           arrows
           autoPlaySpeed={3000}
           centerMode={false}
-          className="p-5 border-biscay border-2 rounded-2xl"
+          className="border-biscay border-2 rounded-2xl"
           containerClass="container"
           dotListClass=""
           draggable

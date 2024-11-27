@@ -84,6 +84,10 @@ export const content = {
           {name: 'Raghad Jathmi' , role: '(Activities & Reservations Plan Coordinator)'}
         ] 
       },
+    ],
+    "dataOfEvents":[
+      {title: 'Can you find the bugs in the bank?', describe:'lets have a fun time finding errors' , buttonText: 'Join Us!'},
+      {title: 'We just have started a new year!', describe:'take a look into our new structure, members, and more....' , buttonText: 'Learn More'},
     ]
   },
   footer:{

@@ -26,10 +26,15 @@ export default function Home() {
           })
         }
 
-        <section className="flex flex-wrap justify-around gap-12">
-          <CardJoin />
-          <CardJoin />
-          <CardJoin />
+        <section className="flex flex-wrap justify-around gap-12 px-5">
+          {
+          content.Home.dataOfEvents.map((val, index) => {
+            return(
+              <CardJoin title={val.title} description={val.describe} buttonText={val.buttonText} key={index} />
+            )
+          })
+
+          }
         </section>
       </div>
     </main>

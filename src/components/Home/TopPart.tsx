@@ -11,8 +11,8 @@ export default function TopPart() {
     <div className=' text-primary-white flex flex-row items-center justify-around p-11'>
 
     <div className="text-center">
-      <span style={{ color: '#6499a2' }} className="text-5xl font-black font-['Raleway']">{content.Home.topPart.topText}<br/></span>
-      <span className="text-5xl font-black font-['Raleway']">{content.Home.topPart.bottom}</span>
+      <span style={{ color: '#6499a2' }} className="sm:text-5xl text-3xl font-black font-['Raleway']">{content.Home.topPart.topText}<br/></span>
+      <span className="sm:text-5xl text-3xl font-black font-['Raleway']">{content.Home.topPart.bottom}</span>
     </div>
       <div>
         <Image src={logo} alt='logo'     
