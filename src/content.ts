@@ -7,11 +7,10 @@ export const content = {
   },
   nav:{
     nameOfTabs: [
-      {name: 'Home' , url: '/'}, 
-      {name: 'About us' , url: '/'} , 
-      {name: 'Statistics & Achievements' , url: '/scientific-corner'}, 
-      {name: 'Scientific Corner' , url: '/'} 
-      ]
+      { name: "Home", url: "/" },
+      { name: "Statistics & Achievements", url: "/statistics-achievements" },
+      { name: "Scientific Corner", url: "/scientific-corner" },
+    ],
   },
   Home:{
     topPart:{
@@ -155,16 +154,16 @@ export const content = {
             { name: "CS", value: 13 },
             { name: "CYS", value: 12 },
           ],
-          type: "pie"
+          type: "pie",
         },
         {
           title: "Complated Projects",
           counts: [
             { name: "p1", value: 50 },
             { name: "p2", value: 20 },
-            { name: "p3", value: 80 }
+            { name: "p3", value: 80 },
           ],
-          type: "none"
+          type: "none",
         },
         {
           title: "Participants Rates In Events",
@@ -175,9 +174,9 @@ export const content = {
             { name: "general", value: 83 },
             { name: "cs", value: 58 },
           ],
-          type: "bar"
-        }
-      ]
+          type: "bar",
+        },
+      ],
     },
     track: {
       title: "Track Our Club Grouth",
@@ -186,27 +185,27 @@ export const content = {
           title: "Member Count",
           counts: {
             number: "150",
-            plus: "10"
-          }
+            plus: "10",
+          },
         },
         {
           title: "Complated Projects",
           counts: {
             number: "30",
-            plus: "5"
-          }
+            plus: "5",
+          },
         },
         {
           title: "Events Participants Rates",
           counts: {
             number: "80%",
-            plus: "3%"
-          }
-        }
+            plus: "3%",
+          },
+        },
       ],
       card: {
         title: "Growth Over Time",
-      }
+      },
     },
     members: {
       title: "Top Members",
@@ -215,23 +214,23 @@ export const content = {
           name: "Noor",
           hours: 16,
           unit: "Web Unit",
-          image: "/profile.png"
+          image: "/profile.png",
         },
         {
           name: "Fatima",
           hours: 22,
           unit: "Web Unit",
-          image: "/profile.png"
+          image: "/profile.png",
         },
         {
           name: "Hawra'a",
           hours: 19,
           unit: "Web Unit",
-          image: "/profile.png"
-        }
-      ]
-    }
-  }
+          image: "/profile.png",
+        },
+      ],
+    },
+  },
 };
 
 export type Content = typeof content;

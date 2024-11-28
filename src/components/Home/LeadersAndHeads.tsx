@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 
 
-const SingleMember = ({name , role}: any) => {
+const SingleMember = ({name , role}: { name: string; role: string }) => {
   return(
     <div className='flex flex-col items-center text-center'>
       <Image src='/Home/Avatar.png' className='sm:w-36 w-28 sm:h-36 h-28' width={300} height={300} alt='Avatar' />
