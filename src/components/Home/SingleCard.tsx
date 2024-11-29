@@ -1,21 +1,19 @@
-import React from 'react'
-import { Mail } from 'lucide-react';
+import { Mail } from "lucide-react";
 
 export default function SingleCard() {
   return (
-    <div className='text-center sm:p-44 p-20 flex flex-col items-center'>
-      <div className='p-3 border-2 border-biscay rounded-full bg-white'>
+    <div className="flex flex-col items-center p-10 pb-16 text-center sm:p-32">
+      <div className="rounded-full border-2 border-biscay bg-white p-3">
         <Mail />
       </div>
-      <div className='flex flex-col items-center gap-y-4'>
-        <h1 className='font-bold text-xl text-biscay'>
-          Our Message
-        </h1>
-        <p className='text-justify sm:text-2xl text-xl'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quae, eos laboriosam nobis iusto doloribus ab minima cumque sunt temporibus quia quos quas nostrum magnam dolor ut autem dicta soluta?
+      <div className="flex flex-col items-center gap-y-4">
+        <h1 className="text-xl font-bold text-biscay">Our Message</h1>
+        <p className="text-justify text-xl sm:text-2xl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quae, eos laboriosam nobis iusto
+          doloribus ab minima cumque sunt temporibus quia quos quas nostrum magnam dolor ut autem dicta
+          soluta?
         </p>
-
       </div>
     </div>
-  )
+  );
 }

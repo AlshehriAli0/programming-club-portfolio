@@ -1,32 +1,47 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import SingleCard from "./SingleCard";
 
 export default function CardSwipe() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const updateMobileState = () => {
+      setIsMobile(window.innerWidth <= 464);
+    };
+
+    updateMobileState();
+
+    window.addEventListener("resize", updateMobileState);
+
+    return () => {
+      window.removeEventListener("resize", updateMobileState);
+    };
+  }, []);
+
   return (
     <section className="flex flex-col items-center gap-y-28 px-5">
-      <p className="px-12 text-center text-2xl font-semibold text-[#174760] sm:text-[37.86px] lg:pt-12">
+      <p className="px-6 text-center text-2xl font-semibold text-[#174760] sm:text-[37.86px] lg:px-12 lg:pt-12">
         A creative and supportive community to develop our skills and learn together outside the academic
         scope
       </p>
 
       <Carousel
         additionalTransfrom={0}
-        arrows
+        arrows={!isMobile}
         autoPlaySpeed={3000}
         centerMode={false}
         className="rounded-2xl border-2 border-biscay"
         containerClass="container"
-        dotListClass=""
         draggable
         focusOnSelect
         infinite={false}
-        itemClass=""
         keyBoardControl
         minimumTouchDrag={80}
-        partialVisible
+        partialVisible={false}
         pauseOnHover
         renderArrowsWhenDisabled={false}
         renderButtonGroupOutside={false}
@@ -45,6 +60,7 @@ export default function CardSwipe() {
               max: 464,
               min: 0,
             },
+
             items: 1,
             partialVisibilityGutter: 30,
           },
