@@ -24,7 +24,7 @@ export default function CardSwipe() {
 
   return (
     <section className="flex flex-col items-center gap-y-28 px-5">
-      <p className="px-6 text-center text-2xl font-semibold text-[#174760] sm:text-[37.86px] lg:px-12 lg:pt-12">
+      <p className="px-2 pt-8 text-center text-2xl font-semibold text-[#174760] sm:text-[37.86px] lg:px-12 lg:pt-12">
         A creative and supportive community to develop our skills and learn together outside the academic
         scope
       </p>

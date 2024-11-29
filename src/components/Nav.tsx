@@ -36,7 +36,7 @@ export default function Nav() {
         {/* Ham icon */}
         <button
           onClick={() => setVisible(!visible)}
-          className="flex flex-col items-center justify-center gap-y-1.5 rounded-md border border-white p-2 sm:hidden"
+          className="flex flex-col items-center justify-center gap-y-1.5 rounded-md border border-white p-2 transition active:scale-90 sm:hidden"
         >
           {[0, 0, 0].map((_, index) => (
             <span key={index} className="h-[2.5px] w-6 rounded-full bg-white"></span>

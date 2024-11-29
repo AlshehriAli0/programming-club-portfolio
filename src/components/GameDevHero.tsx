@@ -41,11 +41,17 @@ export const GameDevHero = () => {
           alt="Game dev unit icon"
           src={"/game-dev-icon.svg"}
           quality={100}
-          className="absolute right-0 top-32 -z-50 h-auto opacity-5 md:top-0"
+          className="absolute right-2 top-32 -z-50 h-auto opacity-5 md:top-20"
         />
       </div>
       <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen">
-        <Image src="/game-dev-break.svg" alt="break" width={1920} height={500} className="h-auto w-full" />
+        <Image
+          src="/game-dev-break.svg"
+          alt="break"
+          width={1920}
+          height={500}
+          className="h-auto w-[100vw] md:w-full"
+        />
       </div>
     </div>
   );

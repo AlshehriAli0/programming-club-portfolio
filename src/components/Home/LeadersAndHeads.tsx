@@ -29,7 +29,7 @@ export default function LeadersAndHeads({
     <section className="flex flex-col gap-6">
       <span className="flex flex-wrap justify-center gap-x-2 text-start text-3xl text-breaker-bay sm:text-[45.95px]">
         {title}
-        <h1 className="font-extrabold text-breaker-bay">{boldTitle}</h1>
+        <h1 className="px-1 font-extrabold text-breaker-bay">{boldTitle}</h1>
       </span>
       <div className="flex flex-wrap justify-center gap-10 bg-[#e9eced] p-6">
         {contentOfMember.map((val: { name: string; role: string }, index: number) => {
