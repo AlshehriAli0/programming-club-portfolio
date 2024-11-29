@@ -17,7 +17,7 @@ export const GameDevHero = () => {
       >
         Game Development
       </div>
-      <div className="flex pb-20 sm:pb-64 lg:max-w-[60%] lg:pb-64">
+      <div className="flex overflow-hidden pb-20 sm:pb-64 lg:max-w-[60%] lg:pb-64">
         <aside>
           <h2 className="bg-gradient-to-r from-biscay via-smalt-blue to-breaker-bay bg-clip-text text-3xl font-bold text-transparent md:text-6xl">
             {content.scientificCorner.banner.title}
@@ -41,7 +41,7 @@ export const GameDevHero = () => {
           alt="Game dev unit icon"
           src={"/game-dev-icon.svg"}
           quality={100}
-          className="absolute right-0 top-0 h-auto opacity-5"
+          className="absolute right-0 top-32 -z-50 h-auto opacity-5 md:top-0"
         />
       </div>
       <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen">

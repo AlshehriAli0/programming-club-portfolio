@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${raleway.className} bg-primary-white antialiased`}>
+      <body className={`${raleway.className} bg-white antialiased`}>
         <Nav />
         {children}
         <Footer />
