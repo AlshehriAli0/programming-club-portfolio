@@ -168,30 +168,30 @@ export const content = {
   },
   gameDev: {
     meetings: [
-      {
-        date: "13 November",
-        cover: "/game-dev-cover.png",
-        title: "1st Practice",
-        link: "www.zoom.com",
-      },
-      {
-        date: "13 November",
-        cover: "/game-dev-cover.png",
-        title: "1st Practice",
-        link: "www.zoom.com",
-      },
-      {
-        date: "13 November",
-        cover: "/game-dev-cover.png",
-        title: "1st Practice",
-        link: "www.zoom.com",
-      },
-      {
-        date: "13 November",
-        cover: "/game-dev-cover.png",
-        title: "1st Practice",
-        link: "www.zoom.com",
-      },
+      // {
+      //   date: "13 November",
+      //   cover: "/game-dev-cover.png",
+      //   title: "1st Practice",
+      //   link: "www.zoom.com",
+      // },
+      // {
+      //   date: "13 November",
+      //   cover: "/game-dev-cover.png",
+      //   title: "1st Practice",
+      //   link: "www.zoom.com",
+      // },
+      // {
+      //   date: "13 November",
+      //   cover: "/game-dev-cover.png",
+      //   title: "1st Practice",
+      //   link: "www.zoom.com",
+      // },
+      // {
+      //   date: "13 November",
+      //   cover: "/game-dev-cover.png",
+      //   title: "1st Practice",
+      //   link: "www.zoom.com",
+      // },
     ],
   },
   statisticsachievements: {

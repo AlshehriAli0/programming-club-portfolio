@@ -40,15 +40,22 @@ export const ArticleList = ({ posts }: { posts: Post[] }) => {
         ))}
       </div>
       <div className="grid w-full grid-cols-1 justify-items-center gap-x-5 gap-y-7 lg:grid-cols-2 xl:grid-cols-3">
-        {activeSectionArticles.map((article, idx) => (
-          <ArticleCard
-            key={idx}
-            title={article.meta.title}
-            cover={article.meta.cover}
-            type={article.meta.section}
-            href={article.href}
-          />
-        ))}
+        {activeSectionArticles.length > 0 ? (
+          activeSectionArticles.map((article, idx) => (
+            <ArticleCard
+              key={idx}
+              title={article.meta.title}
+              cover={article.meta.cover}
+              type={article.meta.section}
+              href={article.href}
+            />
+          ))
+        ) : (
+          <div className="col-span-full flex flex-col items-center justify-center py-10 text-center">
+            <p className="text-xl font-medium text-biscay">Coming Soon</p>
+            <p className="text-breaker-bay">Articles for this section are being prepared</p>
+          </div>
+        )}
       </div>
     </section>
   );
