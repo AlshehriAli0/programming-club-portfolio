@@ -29,7 +29,7 @@ export const RecordedMeetings = () => {
         ) : (
           <div className="col-span-full flex flex-col items-center justify-center py-16">
             <h3 className="text-3xl font-bold text-biscay">Coming Soon</h3>
-            <p className="mt-4 text-xl text-gray-600">
+            <p className="mt-4 text-center text-xl text-gray-600">
               No recorded meetings available yet. Check back later!
             </p>
           </div>
