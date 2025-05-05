@@ -1,5 +1,6 @@
 "use client";
 
+import { content } from "@/content";
 import { useEffect, useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -7,6 +8,7 @@ import SingleCard from "./SingleCard";
 
 export default function CardSwipe() {
   const [isMobile, setIsMobile] = useState(false);
+  const cards = content.Home.SingleCard;
 
   useEffect(() => {
     const updateMobileState = () => {
@@ -81,12 +83,9 @@ export default function CardSwipe() {
         slidesToSlide={1}
         swipeable
       >
-        <SingleCard />
-        <SingleCard />
-        <SingleCard />
-        <SingleCard />
-        <SingleCard />
-        <SingleCard />
+        {Object.entries(cards).map(([key, card]) => (
+          <SingleCard key={key} {...card} />
+        ))}
       </Carousel>
     </section>
   );
