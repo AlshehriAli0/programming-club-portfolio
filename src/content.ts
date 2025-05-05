@@ -53,7 +53,8 @@ export const content = {
       { title: 'Publications & Marketing', boldTitle: 'Heads', members: 
         [
           {name: 'Joory Al-dossary' , role: '(Head of Publications & Marketing Unit)'}, 
-          {name: 'Nada Alnaser' , role: '(Vice Head of Publications & Marketing Unit)'}
+          {name: 'Nada Alnaser' , role: '(Vice Head of Publications & Marketing Unit)'},
+          {name: 'Yassmin Al-alawiyat' , role: '(Vice Head of Publications & Marketing Unit)'}
         ] 
       },
       { title: 'Game Development', boldTitle: 'Heads', members: 
@@ -65,7 +66,7 @@ export const content = {
       { title: 'Events & Organization', boldTitle: 'Heads', members: 
         [
           {name: 'Yazan Mousa' , role: '(Head of Events & Organization Unit)'}, 
-          {name: 'Abrar AlGhamdi' , role: '(Vice Head of Events & Organization Unit)'}
+          {name: 'Raghad Jatmi' , role: '(Vice Head of Events & Organization Unit)'}
         ] 
       },
       { title: 'Web development', boldTitle: 'Heads', members: 
@@ -80,7 +81,7 @@ export const content = {
         [
           {name: 'Ibtisam Alsuhaymi' , role: '(Volunteering Hours Coordinator)'}, 
           {name: 'Reem Alqahtani' , role: '(Financial Affairs & Member Info Coordinator)'},
-          {name: 'Raghad Jathmi' , role: '(Activities & Reservations Plan Coordinator)'}
+          {name: 'Muneerah Alrabeeah' , role: '(Activities & Reservations Plan Coordinator)'}
         ] 
       },
     ],
@@ -146,33 +147,76 @@ export const content = {
       title: "Statistics & Achievements",
       cards: [
         {
-          title: "Member Count In Each Major",
+          title: "Member Count In Each Unit",
           counts: [
-            { name: "AI", value: 25 },
-            { name: "CIS", value: 25 },
-            { name: "GENERAL", value: 25 },
-            { name: "CS", value: 13 },
-            { name: "CYS", value: 12 },
+            {
+              name: "Web Development",
+              value: 16,
+            },
+            {
+              name: "Game Development",
+              value: 47,
+            },
+            {
+              name: "Public Relations",
+              value: 47,
+            },
+            {
+              name: "Events and Organization",
+              value: 51,
+            },
+            {
+              name: "Publications and Marketing",
+              value: 21,
+            },
           ],
           type: "pie",
         },
         {
           title: "Complated Projects",
           counts: [
-            { name: "p1", value: 50 },
-            { name: "p2", value: 20 },
-            { name: "p3", value: 80 },
+            {
+              name: "Programming Club Portfolio",
+              value: 100,
+            },
+            {
+              name: "Stupid knight Game",
+              value: 100,
+            },
+            {
+              name: "BouncyBall Game",
+              value: 100,
+            },
+            {
+              name: "RootFight Game",
+              value: 100,
+            },
+            {
+              name: "The Good Witch Game",
+              value: 100,
+            },
           ],
-          type: "none",
+          type: "bar",
         },
         {
           title: "Participants Rates In Events",
           counts: [
-            { name: "ai", value: 27 },
-            { name: "cis", value: 68 },
-            { name: "cys", value: 56 },
-            { name: "general", value: 83 },
-            { name: "cs", value: 58 },
+            {
+              name: "رمضان نور ودعاء",
+              value: 88,
+            },
+            {
+              name: "CodeSpark Chase",
+              value: 63,
+            },
+            {
+              name: "معرض تطوير الألعاب",
+              value: 76,
+            },
+            {
+              name: "معرض رؤية البيانات والأعمال",
+              value: 85,
+            },
           ],
           type: "bar",
         },
@@ -184,21 +228,21 @@ export const content = {
         {
           title: "Member Count",
           counts: {
-            number: "150",
+            number: "200",
             plus: "10",
           },
         },
         {
           title: "Complated Projects",
           counts: {
-            number: "30",
+            number: "6",
             plus: "5",
           },
         },
         {
           title: "Events Participants Rates",
           counts: {
-            number: "80%",
+            number: "85%",
             plus: "3%",
           },
         },
