@@ -35,3 +35,4 @@ We’re excited to build something amazing together. This project will be a show
 - Keep the **spirit of learning and collaboration** alive. We’re all here to improve and grow, so let’s encourage and help each other along the way.
 
 Together, let’s create something awesome! 💻🎉
+
